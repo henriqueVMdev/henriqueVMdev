@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+  <style>
+    .bg{fill:#0a0e12}
+    .chrome{fill:#11161c}
+    .t{font-size:14px;fill:#9fb3c8}
+    .g{fill:#39ff7a}
+    .dim{fill:#52677d}
+    .y{fill:#ffd866}
+    .c{fill:#56c8ff}
+    .m{fill:#ff6ac1}
+    .r{fill:#ff5c57}
+
+    /* typing: each line revealed by an expanding clip */
+    .line{opacity:0}
+    @keyframes show{to{opacity:1}}
+    @keyframes type{from{width:0}to{width:820px}}
+
+    .l1{animation:show .01s .4s forwards}
+    .l2{animation:show .01s 1.6s forwards}
+    .l3{animation:show .01s 2.2s forwards}
+    .l4{animation:show .01s 2.8s forwards}
+    .l5{animation:show .01s 3.4s forwards}
+    .l6{animation:show .01s 4.6s forwards}
+    .l7{animation:show .01s 5.2s forwards}
+    .l8{animation:show .01s 5.8s forwards}
+    .l9{animation:show .01s 6.4s forwards}
+    .l10{animation:show .01s 7.6s forwards}
+    .l11{animation:show .01s 8.2s forwards}
+    .l12{animation:show .01s 8.8s forwards}
+    .l13{animation:show .01s 9.4s forwards}
+    .l14{animation:show .01s 10.6s forwards}
+    .l15{animation:show .01s 11.2s forwards}
+
+    .typed{overflow:hidden;white-space:nowrap;display:inline-block}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .cursor{animation:blink 1s step-end infinite 11.4s;opacity:0}
+    @keyframes curon{to{opacity:1}}
+    .cursor{animation:curon .01s 11.4s forwards, blink 1s step-end infinite 11.5s}
+
+    /* scanline sweep */
+    @keyframes sweep{from{transform:translateY(-40px)}to{transform:translateY(480px)}}
+    .scan{animation:sweep 7s linear infinite;opacity:.05}
+
+    /* bar fill for "signal scan" */
+    @keyframes fill{from{width:0}}
+    .bar{animation:fill 1.2s ease-out 9.5s backwards}
+  </style>
+
+  <rect class="bg" width="860" height="470" rx="10"/>
+  <rect class="chrome" width="860" height="34" rx="10"/>
+  <rect class="chrome" y="20" width="860" height="14"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5c57"/>
+  <circle cx="42" cy="17" r="6" fill="#ffd866"/>
+  <circle cx="62" cy="17" r="6" fill="#39ff7a"/>
+  <text x="430" y="22" text-anchor="middle" font-size="12" class="dim">henrique@vps-hostinger: ~/ops</text>
+
+  <rect class="scan g" x="0" width="860" height="3"/>
+
+  <g class="t">
+    <text class="line l1" x="20" y="64"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$</tspan> whoami --verbose</text>
+
+    <text class="line l2" x="20" y="90"><tspan class="m">  name</tspan>      Henrique V. Machado</text>
+    <text class="line l3" x="20" y="112"><tspan class="m">  role</tspan>      Backend Dev <tspan class="dim">|</tspan> Ops <tspan class="dim">|</tspan> Quant Researcher</text>
+    <text class="line l4" x="20" y="134"><tspan class="m">  base</tspan>      São Paulo, BR <tspan class="dim">→</tspan> destino: <tspan class="y">anywhere</tspan></text>
+
+    <text class="line l5" x="20" y="170"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$</tspan> docker ps --format "{{.Names}}  {{.Status}}"</text>
+    <text class="line l6" x="20" y="196"><tspan class="c">  fastapi-core</tspan>        <tspan class="g">Up 247 days</tspan>  <tspan class="dim"># prod, usuários diários</tspan></text>
+    <text class="line l7" x="20" y="218"><tspan class="c">  vue3-frontend</tspan>       <tspan class="g">Up 247 days</tspan></text>
+    <text class="line l8" x="20" y="240"><tspan class="c">  postgres-multitenant</tspan> <tspan class="g">Up 247 days</tspan></text>
+    <text class="line l9" x="20" y="262"><tspan class="c">  quant-engine</tspan>        <tspan class="y">Restarting</tspan>  <tspan class="dim"># walk-forward em andamento</tspan></text>
+
+    <text class="line l10" x="20" y="298"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$</tspan> nmap -sV skills/</text>
+    <text class="line l11" x="20" y="324"><tspan class="dim">  PORT</tspan>     <tspan class="dim">STATE</tspan>  <tspan class="dim">SERVICE</tspan></text>
+    <text class="line l12" x="20" y="346">  8000/tcp <tspan class="g">open</tspan>   Python <tspan class="dim">/</tspan> FastAPI <tspan class="dim">/</tspan> SQLAlchemy</text>
+    <text class="line l13" x="20" y="368">  5173/tcp <tspan class="g">open</tspan>   Vue 3 <tspan class="dim">/</tspan> JS</text>
+    <text class="line l14" x="20" y="390">  9000/tcp <tspan class="y">filtered</tspan> Java <tspan class="dim">/</tspan> Spring Boot <tspan class="dim">(em build)</tspan></text>
+
+    <text class="line l15" x="20" y="430"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$</tspan> <tspan class="cursor g">█</tspan></text>
+  </g>
+</svg>
