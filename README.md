@@ -47,15 +47,6 @@
 
 </div>
 
-## `$ ./scan --target github.com/henriqueVMdev`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=henriqueVMdev&show_icons=true&hide_rank=true&hide_border=true&bg_color=0a0e12&title_color=39ff7a&icon_color=39ff7a&text_color=9fb3c8"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueVMdev&layout=compact&hide_border=true&bg_color=0a0e12&title_color=39ff7a&text_color=9fb3c8"/>
-
-</div>
-
 ## `$ ssh henrique@anywhere`
 
 <div align="center">
