@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="470" viewBox="0 0 420 470" font-family="'JetBrains Mono',Consolas,monospace">
+<style>
+.f{opacity:0}
+@keyframes cyc{0%,6.250%{opacity:1}6.260%,100%{opacity:0}}
+.f{animation:cyc 2.24s step-end infinite}
+@media (prefers-reduced-motion: reduce){.f{animation:none}.f0{opacity:1}}
+</style>
+<rect width="420" height="470" rx="10" fill="#0a0e12"/>
+<rect width="420" height="34" rx="10" fill="#11161c"/><rect y="20" width="420" height="14" fill="#11161c"/>
+<circle cx="22" cy="17" r="6" fill="#ff5c57"/><circle cx="42" cy="17" r="6" fill="#ffd866"/><circle cx="62" cy="17" r="6" fill="#39ff7a"/>
+<text x="210.0" y="22" text-anchor="middle" font-size="12" fill="#52677d">cc donut.c -o donut &amp;&amp; ./donut</text>
+<g class="f f0" style="animation-delay:0.00s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                         $@$$$$$$$$$@@$                         </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                    #$$$$####******#####$$$                     </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                  #####**!!!!!!!!!!!!!!**#####                  </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                ####**!!!!!==;;;;;;==!!!!!**####                </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">               *****!!!==;;::~~~~~~~:;;==!!!*****               </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">              ****!!!!=;:~~-,......,--~:;=!!!!****              </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">             !***!!!!=;:~-............-~:;==!!!***!             </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">            ;!!**!!!==;:-,...      ...,-::;=!!!**!!;            </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">            ;=!!!!!!!==;~,.          .,~:;==!!!**!!;            </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">            ;=!!!***!!!==;~          ~:=;=!!!!!!!!=;            </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">            ~=!!!**********!;      ;!**********!!!=~            </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">             :=!!*****#####$$$$##########******!!=:             </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">              :==!****###$$$$@@@@@@$$$$##*****!==:              </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">               :;=!!****###$$$$$$$$$$###****!!=;:               </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                -:;=!!*****##########*****!!=;:-                </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                  -~:;=!!**************!!=;:~-                  </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                     -~~;;;==!!!!!!==;;:~~-                     </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                         .,---~~~----,.                         </text>
+</g>
+<g class="f f1" style="animation-delay:0.14s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                        $$$$$$$$$$$$$$$$$                       </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                    $$###################$$$$                   </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                 *###***!*!****!*****!!****####                 </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                **!!!!!!!============!!!!*!*!****               </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">              !!!!!!====;;:::::::::::;;===!!!!!*!*!             </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">             =!!!===;;::~~--,,,,,,,--~~::;;===!!!!!=            </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">             ====;;::~--,............,,--~::;;====!=            </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">             ==;;;:~~-,.................,-~~::;;====;           </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">             ;;;::~~-,......        .....,--~::;;;;=;           </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">             :::::~~-,.....          ....,,-~~::;;;;:           </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">             ~:::::~~--,,.::         -..,,--~~::::::            </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">              ~::::::::::==!*##*!**!=;::~~~~:::::::~            </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">              ,~~::::;;==!*##$@@@$$#*!=;:::::::::~-             </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                -~::;;==!!**#$$$$$##*!!=;;;::::~~,              </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                 .-~::;==!!*!******!!!!=;;::~~-,                </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                    ,-~:;;=!!!!!!!!!===;::~-,.                  </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                       .,,~~~::;;;::~~~-,..                     </text>
+</g>
+<g class="f f2" style="animation-delay:0.28s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="86.0" xml:space="preserve" textLength="397">                              @@@                               </text>
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                     $$$$$$$$$$$$$$$$$$$$$                      </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                  ######****############$$$$$$                  </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                ***!!!!!!!!!!!*!!!!*****#*#######               </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">               !!====!!=========!!!!!!***!!****###*             </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">              =====;;;;;::::::;;;;==;==!=!!!!!*!****            </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">             ;;;;::~~~~~~~-~~~~~:~~:::;;;=====!!!!!!!           </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">             :::~---,,..........,,--~~~~:::;;=====!!==          </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">             ~~--,...................,,---~::::;;;====          </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">             --,,........................,--~~:::;;;;;;         </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">              ,,...........-;      ........,,--~~~:::::         </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">               ...........-=!*##*   =........,---~~~::          </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                ......,,-~;!*#$@@$#!:,........,,----~-          </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                  ..,,-~~;=!*##$##*=;-.........,,,,,,           </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                    ..,~~:;=!!!!!!==;~-,...........             </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                       ..,~:;;=====;:~--,,.......               </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                            ...,---,,,,.......                  </text>
+</g>
+<g class="f f3" style="animation-delay:0.42s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                       @@@@@@@@                                 </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                  #$$$$$$$$$$$@$@@@@$$                          </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                ******#########$$$$$$$$$$$                      </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">              ==!==!**********#######$#$$$$$$                   </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">              ;;====!!!!!!*!********############                </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">              ::::;;;;;;;==!=!!!!*!!*!******#####*              </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">              ------~~~::;;;;;====!!!!!**!*********             </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">              ......,,----~~::::;;;====!!!!!!!!*!!**!           </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">               ...........,-,-~~~~:;:;=;===!=!!!!!!!!!          </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                 .............,,--~~~:::;;;;=======!==          </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                   ...............,,--~~~::::;;;;=====;         </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                     .....-~;!*......,,---~~~:::;;::;;:         </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                        ..-~;=!=!=.......,,--~~~~~::::~         </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                           ..-::;;:-........,,-----~~-          </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                               ..,,,...........,,,,,,           </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                                   ................             </text>
+</g>
+<g class="f f4" style="animation-delay:0.56s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                   @@@@@$                                       </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                $$$$$$@@@@@@$$                                  </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">              !*###$$$$$$$@@$$$$#                               </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">             ;!!***###$$$$$$$$$$$$$#                            </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">             :==!!**######$$$$$$$$$$##                          </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">             ~;===!!****#######$$$$$$###*                       </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">              ~:;;=!=!!*****##############!                     </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">               -~:;;==!!!*!******##########*!                   </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                .-~::;;==!!!!!*********###****                  </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                  ,-~~:;;====!!!!!*!**********!!                </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                   .,-~~::;;=====!!!!!!!!!*!*!!!!               </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                     ..--~~:::;;====!=!!!!!!!!!!==              </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                       ..,-~~:~::;;;=========!===;;             </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                          ..,--~~::::;;;;;;;=====;:             </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                            ...,--~~~~:::::;:::::::             </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                               ....,,--~~~~~~~~~~-              </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                                  .....,,,,---,,                </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                                       ......                   </text>
+</g>
+<g class="f f5" style="animation-delay:0.70s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                $@@@@@$$$##**                                   </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">             *#$$$@@@@$$$##*===!                                </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">            *#$$$$$$$$$$$#**=:-~;!                              </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">           ;*##$$$$$$$$$$##*!=.-~:=!                            </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">           =**###$$$$$$$$###**=.-:;=!                           </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">           =!**#####$$$$$####**=.~:=!**                         </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">           ;=!***#############**!;;=*###                        </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">           ;;=!****############**!=#$$$$$!                      </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">            ;=!!!!*****########****!=@@@@$*                     </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">            ~:;=!!!****************!!!=#$$#*                    </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">             ~:;==!!!*!*!***********!!!!!!**=                   </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">              -:;===!!!!!!!*!!*****!!!!!!!!!!                   </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                ~:;;;==!!!!!!!!!!!!!!!!!!!===;                  </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                 -~::;;;=====!!!!!!!=======;;:                  </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                   --~:::;;;==============;;;~                  </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                     ,-~~::::;;;;;;;;;;;;:::~                   </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                       ..,-~~~::::::::::~~~-                    </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                           ..,----------,.                      </text>
+</g>
+<g class="f f6" style="animation-delay:0.84s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                     @@@@@@$$                                   </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                #$@@@$$$$#####**##                              </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">              $$$$$$$$$##**!=====!!!*                           </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">            #$$$$$$$$###*!==;:::;;;;=!*                         </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">           *#$$$$$$$##**!=;::~~-~~:;===!!                       </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">          *###$$$$####**!=;~-,....,-:;=!!!                      </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">         =*##########***!=;~.......,~;;=**!                     </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">         =***########**!!=;~. .....-:==!*#*!                    </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">         =!***######****!!=;~    .,~;*#####*=                   </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">         ;=!************!!!=;~    ~=##$$$$$#!                   </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">         :=!!************!!!==;   =#$$@@@@$#!                   </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">          ;=!!!!!*********!!!!!===!*#$$$$$##=                   </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">          ~;==!!!*!********!!!!!!!**#######*;                   </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">           ~:;===!!!!!!!!!!!!!!!!!*****#**!=:                   </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">            -:;;====!!!!!!!!!!!!!!!!!!*!!==;                    </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">              ~~:;;;=====!==!====!=!!=====;-                    </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">               .-~:::;;;=;=========;==;;:~                      </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                  ,-~~:::::;;;:;;;;:::~-                        </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                     ..,--~~~~~-~---,                           </text>
+</g>
+<g class="f f7" style="animation-delay:0.98s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                      @@@@@@$$$$$$$                             </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                  $$$$$$$$####***#####$                         </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">               #$$$$$###***!*!!!!!!!!***##                      </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">             ##$$#####**!!!!;=;;;;;==!!!!***                    </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">            *######***!=!=;;:~~--~~::;;=!!!**                   </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">           *#####***!!==;:~-,......,-~:;;=!!**=                 </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">          !***##****!==;:~-..........,~:;=!!!!!                 </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">          !********!!==;~-..      ...,~:;=!!!*!=                </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">          !!*******!!==;:-.        ..-:;!*****!=                </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">          =!!******!!!==;:-         ;!**#####*!=                </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">          ;=!!!!****!!!!===;      :*##$$$$###*!;                </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">          :==!!!!!!!!!!!!!!!!****#$$@@@@$$$#*!=:                </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">           :;=!!!!!!!!*******###$$@@@@$$$$#*!!;                 </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">            :;===!!!!!!!****#####$$$$$$##*!!=;                  </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">             ~:;;===!!!!!!******#####**!!!!;~                   </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">              .~:;;;====!!!!!!!!!!!!!!!!=;~,                    </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                 ,-~:;;;;=======!!===;;:-.                      </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                    .,--~~:::::::::~-,                          </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                            ..                                  </text>
+</g>
+<g class="f f8" style="animation-delay:1.12s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                         $@$@$$$$$$@$@@                         </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                     $$$$#####****#####$$$$                     </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                  #####******************#####                  </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                ####*****!!!==;;;;==!!!*****####                </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">               *#*****!!==;:~~----~~:;==!!*******               </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">              ******!==;:~-,........,-~:;=!!******              </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">             !*****!!=;:~-,..........,-~:;=!!*****!             </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">             !****!!=;;:-,...      ...,-:;==!!***!!;            </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">            ;!!**!!!==;:-..          .,~;==!!!!!!!=;            </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">            ;=!!!!!*!==;;:~          ~;==!!!***!!!=:            </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">            ~==!!!*******!!!;      ;!*********!!!==~            </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">             ;=!!!!***######$####$$$$#####***!!!!=;             </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">              :==!!!**###$$$$@@@@@@$$$$###**!!!==:              </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">               :;=!!!!**###$$$$$$$$$$###**!!!!=;:               </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                -:;==!!!!***########***!!!!!=;:-                </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                  -~;;=!!!!!!!!!!!!!!!!!!=;;~,                  </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                     ,~::;;===!!!!===;;::~,                     </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                         .,--~-------,.                         </text>
+</g>
+<g class="f f9" style="animation-delay:1.26s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                             $$$$$$$@@@@@$                      </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                         $#####***####$$$$$$$$                  </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                      ##**!*!!!!*!!!!***###$$$$$#               </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                    ***!!!!==;;;;;====!***#####$$##             </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">                   **!!!=;;::~~--~~:;;===!***######*            </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">                 =*!!!=;;:~-,......,-~:;=!!!***#####*           </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">                 !!!!!=;:~,..........-~:;==!****###**!          </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">                =!*!!!=;:~,...      ..-~;==!!********!          </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                =!*****!;:-..        .-:;=!!!*******!!          </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                =!*######*!;         ~:;==!!!******!!=          </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                ;!*###$$$$##*;      ;===!!!!*****!!!=;          </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                :=!*#$$$@@@@$$##***!!!!!!!!!!!!!!!!==:          </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                 ;=!*#$$$$@@@@$$###*******!!!!!!!==;:           </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                  ;!!!*##$$$$$$$###*****!!!!!!!===;:            </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                   ~;!!!***#####******!!!!!!===;;:~             </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                    .~;=!!=!!!!!!!!!!!!!====;;;:~               </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                      .-:;;===!!!======;;;::~-,                 </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                          ,-~:::::::::~~--,.                    </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                                  ..                            </text>
+</g>
+<g class="f f10" style="animation-delay:1.40s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                                   $$@@@@@@                     </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                              ##**#####$$$$@@@$$                </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                           *!!!=====!**###$$$$$$$$              </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                         *!==;;;:::;==!*###$$$$$$$$#            </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">                       !!==;;:~~-~~~:;=!**##$$$$$$$#*           </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">                      !!!=;:-,....,-~;=!**####$$$$###*          </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">                     !**!;;~,.......~;=!***##########*=         </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">                    !*#*!==:-..... .~;=!!**########***=         </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                   =*#####*;~,.    ~;=!!****######***!=         </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                   !#$$$$$#*=~    ~;=!!!************!==         </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                   !#$@@@@$$#=   ;=!!!!************!!=:         </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                   =##$$$$$#*!===!!!!!**********!!!!=;          </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                   ;*#######**!!!!!!!!******!!!!!!==;~          </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                   :=!**#*****!!!!!!!!!!!!!!!!!!==;;~           </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                    ;==!!*!!!!!!!!!!!!!!!!!!====;;:-            </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                    -;=====!!=!=======!======;;::~              </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                      ~:;;==;=========;;;;;:::~-                </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                        -~:::;;;;;;;;:::::~~-,                  </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                           ,---~~~~~~---,..                     </text>
+</g>
+<g class="f f11" style="animation-delay:1.54s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                                   **##$$$@@@@@$                </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                                !===*##$$$@@@@@$$#*             </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                              !;~-:=**#$$$$$$$$$$$#*            </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">                            !=:~-.=!*##$$$$$$$$$$##*=           </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">                           !=;~-.=**###$$$$$$$$###**=           </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">                         **!=;~.=**####$$$$$####***!=           </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">                        ###*=;;!**#############***!=;           </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                      *$$$$$#=!**############****!!;;           </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                     *$@@@@=!****########******!!!=;            </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">                    *#$$#=!!********#*******!!!!=;:~            </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">                   =**!!!!!**************!!!!!==;;-             </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">                   !!!!!!!!!!*****!!*!!!!!=!=;;;:~              </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                  ;===!!!!!!!!!!!!!!!!!!===;;;:~.               </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                  :;========!!=!!!!=====;;;::~-                 </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                  ~:;;============;=;;;:::~~,                   </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                   ~::;;;;;;;;;;;;;::::~~-,                     </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                    ,~~~::::::::~:~~~-,,.                       </text>
+<text x="11.6" y="406.0" xml:space="preserve" textLength="397">                      .,----------,..                           </text>
+</g>
+<g class="f f12" style="animation-delay:1.68s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                                       $@@@@@                   </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                                  $$$@@@@@@$$$$$                </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                               #$$$$@$@$$$$$$####!              </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                            ##$$$$$$$$$$$$###***!!;             </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">                          ##$$$$$$$$$$#####***!!==;             </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">                       *###$$$$#$#######****!!===;~             </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">                     *##############*****!!!!=;;:~              </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">                   !*##########******!*!!!==;;:~-               </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">                  *****#*********!!!!!===;;::~~.                </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">                !!************!!!!!!===;;:~~-,                  </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">               !!!!!!*!!!!!!!!!=!===;;::~~-,.                   </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">              ==!!!!!!!!!!=!====;;:::~~--..                     </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">             ;;===!=========;;;:::~~~-,..                       </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">             ;;;===;;;;;;;;::::~~--,..                          </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">             :::;:::;:::::~~~~--,...                            </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">              -~~~~~~~~~~--,,....                               </text>
+<text x="11.6" y="374.0" xml:space="preserve" textLength="397">                ,,---,,,,.....                                  </text>
+<text x="11.6" y="390.0" xml:space="preserve" textLength="397">                   ......                                       </text>
+</g>
+<g class="f f13" style="animation-delay:1.82s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                                 @@@@@@@@                       </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                          $@@@@@$$$$$$$$$$$$$$                  </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                      $$$$$$$$$$$#########******                </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">                   $$$$$$#$#######******!!*!!==!=!              </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">                ##########*#****!***!*!!=!!=;====;              </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">              *#####*#****!*!!!!!!!=!===;;;;;;::::              </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">             ********!!**!!!!!====;;;;;::~~-------              </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">           !**!*!*!!!!!!!====;;;::::~~----,,......              </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">          =!!!!!!!!=====;;;;;::~~~-,-,...........               </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">          ==!=======;;;;:::~~~~-,,.............                 </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">         ;=====;;;;::::~~~--,,...............                   </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">         ;;;::;::::~~~--,,,......*!;~-.....                     </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">         :::::~~~~~--,,.......===!=;~-..                        </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">          -~~~----,,........-~;;::-..                           </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">           ,,,,,,...........,,,..                               </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">             ................                                   </text>
+</g>
+<g class="f f14" style="animation-delay:1.96s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="86.0" xml:space="preserve" textLength="397">                               @@@                              </text>
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                      $$$$$$$$$$$$$$$$$$$$                      </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                  $$$$$$#############***######                  </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                ######*#*****!!!!!*!!!!!!!!!!***                </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">              ###****!!***!!!!!!=========!!====!!               </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">            ****!*!*!!!=!==;==;;;;::::::;;;;;=====              </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">           !!!!!!!=====;;;:::~~~~~~~~-~~~~~~~:::;;;             </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">          ==!!====;;;:::~~~---,,..........,,---~:::             </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">          ====;;;::::~---,,...................,--~~             </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">         ;;;;;;:::~~--,........................,,--             </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">         :::::~~~--,,........      ;-...........,,              </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">          :~~~~---,........=   *##*!=-...........               </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">          -~~---,,........,:!#$@@$#*!;~-,,......                </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">           ,-,,,,.........-;=*##$##*!=;~~-,,..                  </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">            ............,-~;==!!!!*!=;:~~,..                    </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">               .......,,--~:;=====;;:-,..                       </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                  .......,,,,---,...                            </text>
+</g>
+<g class="f f15" style="animation-delay:2.10s" font-size="11" fill="#39ff7a">
+<text x="11.6" y="102.0" xml:space="preserve" textLength="397">                       $$$$$$$$$$$$$$$$$                        </text>
+<text x="11.6" y="118.0" xml:space="preserve" textLength="397">                   $$$$###################$$                    </text>
+<text x="11.6" y="134.0" xml:space="preserve" textLength="397">                 ####****!!**********!*!***###*                 </text>
+<text x="11.6" y="150.0" xml:space="preserve" textLength="397">               *****!!*!!!!============!!!!!!!**                </text>
+<text x="11.6" y="166.0" xml:space="preserve" textLength="397">             !**!!!!!!===;;:::::::::::;;====!!!!!!              </text>
+<text x="11.6" y="182.0" xml:space="preserve" textLength="397">            =!!!!!===;;::~~--,,,,,,,,-~~::;;;==!=!=             </text>
+<text x="11.6" y="198.0" xml:space="preserve" textLength="397">            =!====;;::~--,............,,--~::;;====             </text>
+<text x="11.6" y="214.0" xml:space="preserve" textLength="397">           ;====;;::~~-,.................,-~::;;;==             </text>
+<text x="11.6" y="230.0" xml:space="preserve" textLength="397">           ;=;;;;::~--,.....        ......,-~~::;;;             </text>
+<text x="11.6" y="246.0" xml:space="preserve" textLength="397">           :;;;;::~~-,,....          .....,-~~:::::             </text>
+<text x="11.6" y="262.0" xml:space="preserve" textLength="397">            ::::::~~~-,,..-         ::.,,--~~:::::~             </text>
+<text x="11.6" y="278.0" xml:space="preserve" textLength="397">            ~:::::::~~~~::;!!**!*##*!==::::::::::~,             </text>
+<text x="11.6" y="294.0" xml:space="preserve" textLength="397">             -~:::::::::;=!*#$$@@@$##*!==;;::::~~,              </text>
+<text x="11.6" y="310.0" xml:space="preserve" textLength="397">              ,~~::::;;;=!!*##$$$$$#**!!=;;;::~-                </text>
+<text x="11.6" y="326.0" xml:space="preserve" textLength="397">                ,-~~::;;=!!!!*******!*!==;::~,.                 </text>
+<text x="11.6" y="342.0" xml:space="preserve" textLength="397">                  .,-~::;;==!!!!!!!!!=;;:~-.                    </text>
+<text x="11.6" y="358.0" xml:space="preserve" textLength="397">                      .,-~~~::;;;::~~-,..                       </text>
+</g>
+<text x="210.0" y="454" text-anchor="middle" font-size="10" fill="#52677d">a1k0n, 2006 — rendered in pure SVG, zero JS</text>
+</svg>
