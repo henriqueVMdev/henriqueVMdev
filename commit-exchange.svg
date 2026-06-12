@@ -292,10 +292,10 @@
 <rect class="vb" style="animation-delay:2.88s" x="769.6" y="355.6" width="9.2" height="54.4" fill="#ff5c57" opacity="0.55"/>
 <rect class="vb" style="animation-delay:2.94s" x="784.4" y="406.4" width="9.2" height="3.6" fill="#ff5c57" opacity="0.55"/>
 <rect class="vb" style="animation-delay:3.00s" x="799.2" y="355.6" width="9.2" height="54.4" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:3.06s" x="814.0" y="402.8" width="9.2" height="7.2" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:3.06s" x="814.0" y="384.6" width="9.2" height="25.4" fill="#ff5c57" opacity="0.55"/>
 <line x1="16" y1="424" x2="844" y2="424" stroke="#1b232d"/>
 <g class="fd">
-<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">110</tspan></text>
+<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">115</tspan></text>
 <text x="200" y="442" class="t"><tspan class="dim">ATH WEEK</tspan> <tspan class="y">16 @ 2026-05-10</tspan></text>
 <text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">44/52</tspan></text>
 <text x="840" y="442" text-anchor="end" class="t"><tspan class="dim">funding paid in</tspan> <tspan class="g">commits</tspan> <tspan class="bl g">█</tspan></text>
