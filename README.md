@@ -5,9 +5,8 @@
 
 <br/><br/>
 
-<!-- ░░ ACCESS BADGES ░░ -->
 <img src="https://img.shields.io/badge/SYS-ONLINE-39ff7a?style=for-the-badge&labelColor=0a0e12"/>
-<img src="https://img.shields.io/badge/UPTIME-PROD-39ff7a?style=for-the-badge&labelColor=0a0e12"/>
+<img src="https://img.shields.io/badge/DEPLOY-VPS%20PROD-39ff7a?style=for-the-badge&labelColor=0a0e12"/>
 <img src="https://komarev.com/ghpvc/?username=henriqueVMdev&style=for-the-badge&color=39ff7a&labelColor=0a0e12&label=INTRUSIONS+DETECTED"/>
 
 </div>
@@ -15,17 +14,40 @@
 <br/>
 
 ```text
-┌──[ MANIFEST ]──────────────────────────────────────────────────┐
-│                                                                │
-│  > Backend Python em produção (FastAPI + PostgreSQL + Docker)  │
-│  > Plataforma SaaS com usuários diários no ar desde 2025       │
-│  > Pesquisa quantitativa: walk-forward, PBO, Deflated Sharpe   │
-│  > Segundo track: Java / Spring Boot                           │
-│  > Objetivo: trabalho remoto → liberdade geográfica            │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
+┌──[ MANIFEST ]────────────────────────────────────────────────────────┐
+│                                                                     │
+│  > Plataforma de gestao p/ vendedores Mercado Livre — em PRODUCAO   │
+│    FastAPI · Vue 3 · PostgreSQL · Docker · deploy em VPS Linux      │
+│    uso diario pela equipe de operacoes (RBAC, analytics, bulk ops)  │
+│  > Pesquisa quantitativa: walk-forward, PBO, Deflated Sharpe        │
+│  > Segundo track em construcao: Java                                │
+│  > Objetivo: backend remoto -> liberdade geografica                 │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
+## `$ ./skillscan --sweep` `&&` `./donut`
+
+<div align="center">
+<img src="assets/radar.svg" alt="skill radar" width="420"/>&nbsp;<img src="assets/donut.svg" alt="ascii donut" width="420"/>
+</div>
+
+## `$ systemctl status ml-platform.service`
+
+```text
+● ml-platform.service — Plataforma de gestão Mercado Livre
+     Loaded: loaded (Docker Compose: fastapi + vue3 + postgres + nginx)
+     Active: active (running) — produção em VPS Linux
+      Users: equipe de operações, uso diário
+   Features: RBAC 4 níveis · gestão em massa de compatibilidades
+             analytics de vendas · logs de operação · API ML (OAuth+PKCE)
+```
+
+## `$ render --contrib --mode 3d`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/profile-night-green.svg" alt="3d contribution calendar" width="860"/>
+</div>
 
 ## `$ ./quant --ticker HENRIQUEVMDEV/CMT`
 
@@ -56,24 +78,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=henriqueVMdev&show_icons=true&hide_border=true&bg_color=0a0e12&title_color=39ff7a&icon_color=39ff7a&text_color=9fb3c8&ring_color=39ff7a"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=henriqueVMdev&show_icons=true&hide_rank=true&hide_border=true&bg_color=0a0e12&title_color=39ff7a&icon_color=39ff7a&text_color=9fb3c8"/>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriqueVMdev&layout=compact&hide_border=true&bg_color=0a0e12&title_color=39ff7a&text_color=9fb3c8"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=henriqueVMdev&hide_border=true&background=0a0e12&ring=39ff7a&fire=ffd866&currStreakLabel=39ff7a&sideLabels=9fb3c8&currStreakNum=39ff7a&sideNums=9fb3c8&dates=52677d"/>
-
-</div>
-
-## `$ ./pacman --eat /var/log/contributions`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/pacman-contribution-graph-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/pacman-contribution-graph.svg"/>
-  <img alt="pacman eating contributions" src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/pacman-contribution-graph.svg"/>
-</picture>
 
 </div>
 

@@ -59,7 +59,7 @@
   <g class="t">
     <text class="line l1" x="20" y="64"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$</tspan> whoami --verbose</text>
 
-    <text class="line l2" x="20" y="90"><tspan class="m">  name</tspan>      Henrique V. Machado</text>
+    <text class="line l2" x="20" y="90"><tspan class="m">  name</tspan>      Henrique V. Melo</text>
     <text class="line l3" x="20" y="112"><tspan class="m">  role</tspan>      Backend Dev <tspan class="dim">|</tspan> Ops <tspan class="dim">|</tspan> Quant Researcher</text>
     <text class="line l4" x="20" y="134"><tspan class="m">  base</tspan>      São Paulo, BR <tspan class="dim">→</tspan> destino: <tspan class="y">anywhere</tspan></text>
 
