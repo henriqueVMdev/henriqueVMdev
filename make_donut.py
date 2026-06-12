@@ -66,5 +66,5 @@ for fi, fr in enumerate(frames):
 svg.append(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="#52677d">a1k0n, 2006 — rendered in pure SVG, zero JS</text>')
 svg.append('</svg>')
 
-open("assets/donut.svg", "w").write("\n".join(svg))
+open("assets/donut.svg", "w", encoding="utf-8").write("\n".join(svg))
 print(f"donut.svg: {len(chr(10).join(svg))} bytes, {FRAMES} frames")

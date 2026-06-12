@@ -74,5 +74,5 @@ A(f'<circle cx="{CX}" cy="{CY}" r="2.5" fill="{GREEN}"/>')
 A(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="{DIM}">8 contacts · 7 locked · 1 acquiring (Java)</text>')
 A('</svg>')
 
-open("assets/radar.svg", "w").write("\n".join(s))
+open("assets/radar.svg", "w", encoding="utf-8").write("\n".join(s))
 print(f"radar.svg: {len(chr(10).join(s))} bytes")
