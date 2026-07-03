@@ -16,8 +16,8 @@
 <rect width="860" height="470" rx="10" fill="#0a0e12"/>
 <text x="20" y="24" font-size="15" class="g" font-weight="bold">HENRIQUEVMDEV/CMT</text>
 <text x="20" y="41" font-size="10" class="dim">PERP · 1W · COMMIT EXCHANGE</text>
-<text x="840" y="24" text-anchor="end" font-size="16" fill="#39ff7a" font-weight="bold">101.15</text>
-<text x="840" y="40" text-anchor="end" font-size="11" fill="#39ff7a">+1.15% · 52W</text>
+<text x="840" y="24" text-anchor="end" font-size="16" fill="#39ff7a" font-weight="bold">134.21</text>
+<text x="840" y="40" text-anchor="end" font-size="11" fill="#39ff7a">+34.21% · 52W</text>
 <line x1="16" y1="50" x2="844" y2="50" stroke="#1b232d"/>
 <line x1="56" y1="64.0" x2="826" y2="64.0" stroke="#1b232d" stroke-dasharray="2 4"/>
 <text x="48" y="68.0" text-anchor="end" font-size="10" class="dim">188</text>
@@ -235,11 +235,11 @@
 <rect x="799.2" y="222.5" width="9.2" height="43.9" fill="#39ff7a" rx="1"/>
 </g>
 <g class="k" style="animation-delay:3.06s">
-<line x1="818.6" y1="220.9" x2="818.6" y2="235.4" stroke="#ff5c57" stroke-width="1"/>
-<rect x="814.0" y="222.5" width="9.2" height="7.1" fill="#ff5c57" rx="1"/>
+<line x1="818.6" y1="158.5" x2="818.6" y2="252.5" stroke="#39ff7a" stroke-width="1"/>
+<rect x="814.0" y="166.3" width="9.2" height="56.2" fill="#39ff7a" rx="1"/>
 </g>
-<line x1="56" y1="229.5" x2="826" y2="229.5" stroke="#39ff7a" stroke-width="0.7" stroke-dasharray="5 4" opacity="0.6"/>
-<circle class="bl" cx="822.0" cy="229.5" r="3.4" fill="#39ff7a"/>
+<line x1="56" y1="166.3" x2="826" y2="166.3" stroke="#39ff7a" stroke-width="0.7" stroke-dasharray="5 4" opacity="0.6"/>
+<circle class="bl" cx="822.0" cy="166.3" r="3.4" fill="#39ff7a"/>
 <text x="56" y="346" font-size="10" class="dim">VOL (commits/week)</text>
 <rect class="vb" style="animation-delay:0.00s" x="58.8" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.06s" x="73.6" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
@@ -253,7 +253,7 @@
 <rect class="vb" style="animation-delay:0.54s" x="192.1" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.60s" x="206.9" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.66s" x="221.7" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:0.72s" x="236.5" y="407.2" width="9.2" height="2.8" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:0.72s" x="236.5" y="407.7" width="9.2" height="2.3" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.78s" x="251.3" y="409.0" width="9.2" height="1.0" fill="#ff5c57" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.84s" x="266.1" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.90s" x="280.9" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
@@ -273,31 +273,31 @@
 <rect class="vb" style="animation-delay:1.74s" x="488.2" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:1.80s" x="503.0" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:1.86s" x="517.9" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:1.92s" x="532.7" y="401.7" width="9.2" height="8.3" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:1.92s" x="532.7" y="403.0" width="9.2" height="7.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:1.98s" x="547.5" y="409.0" width="9.2" height="1.0" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.04s" x="562.3" y="374.1" width="9.2" height="35.9" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.10s" x="577.1" y="407.2" width="9.2" height="2.8" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.16s" x="591.9" y="393.4" width="9.2" height="16.6" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.22s" x="606.7" y="376.9" width="9.2" height="33.1" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.28s" x="621.5" y="387.9" width="9.2" height="22.1" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.34s" x="636.3" y="390.7" width="9.2" height="19.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.40s" x="651.1" y="401.7" width="9.2" height="8.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.46s" x="665.9" y="401.7" width="9.2" height="8.3" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.52s" x="680.7" y="399.0" width="9.2" height="11.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.58s" x="695.5" y="393.4" width="9.2" height="16.6" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.64s" x="710.4" y="365.8" width="9.2" height="44.2" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.70s" x="725.2" y="352.0" width="9.2" height="58.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.76s" x="740.0" y="390.7" width="9.2" height="19.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.82s" x="754.8" y="352.0" width="9.2" height="58.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.88s" x="769.6" y="376.9" width="9.2" height="33.1" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.94s" x="784.4" y="401.7" width="9.2" height="8.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:3.00s" x="799.2" y="363.0" width="9.2" height="47.0" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:3.06s" x="814.0" y="365.8" width="9.2" height="44.2" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.04s" x="562.3" y="379.8" width="9.2" height="30.2" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.10s" x="577.1" y="407.7" width="9.2" height="2.3" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.16s" x="591.9" y="396.1" width="9.2" height="13.9" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.22s" x="606.7" y="382.2" width="9.2" height="27.8" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.28s" x="621.5" y="391.4" width="9.2" height="18.6" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.34s" x="636.3" y="393.8" width="9.2" height="16.2" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.40s" x="651.1" y="403.0" width="9.2" height="7.0" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.46s" x="665.9" y="403.0" width="9.2" height="7.0" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.52s" x="680.7" y="400.7" width="9.2" height="9.3" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.58s" x="695.5" y="396.1" width="9.2" height="13.9" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.64s" x="710.4" y="372.9" width="9.2" height="37.1" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.70s" x="725.2" y="361.3" width="9.2" height="48.7" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.76s" x="740.0" y="393.8" width="9.2" height="16.2" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.82s" x="754.8" y="361.3" width="9.2" height="48.7" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.88s" x="769.6" y="382.2" width="9.2" height="27.8" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.94s" x="784.4" y="403.0" width="9.2" height="7.0" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:3.00s" x="799.2" y="370.6" width="9.2" height="39.4" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:3.06s" x="814.0" y="352.0" width="9.2" height="58.0" fill="#39ff7a" opacity="0.55"/>
 <line x1="16" y1="424" x2="844" y2="424" stroke="#1b232d"/>
 <g class="fd">
-<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">180</tspan></text>
-<text x="200" y="442" class="t"><tspan class="dim">ATH WEEK</tspan> <tspan class="y">21 @ 2026-05-17</tspan></text>
-<text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">42/52</tspan></text>
+<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">189</tspan></text>
+<text x="200" y="442" class="t"><tspan class="dim">ATH WEEK</tspan> <tspan class="y">25 @ 2026-06-28</tspan></text>
+<text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">43/52</tspan></text>
 <text x="840" y="442" text-anchor="end" class="t"><tspan class="dim">funding paid in</tspan> <tspan class="g">commits</tspan> <tspan class="bl g">█</tspan></text>
 </g>
 </svg>
