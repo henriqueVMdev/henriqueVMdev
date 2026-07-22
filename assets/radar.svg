@@ -60,9 +60,12 @@
 <circle class="ping" cx="342.6" cy="203.7" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:5.667s"/>
 <circle class="bl" cx="342.6" cy="203.7" r="3" fill="#39ff7a" style="animation-delay:5.667s;opacity:.45"/>
 <text class="lbl" x="350.6" y="223.7" text-anchor="start" fill="#9fb3c8">Quant/Stats</text>
-<circle class="ping" cx="146.1" cy="389.0" r="4" fill="none" stroke="#ffd866" stroke-width="1.4" style="animation-delay:1.917s"/>
-<circle class="bl" cx="146.1" cy="389.0" r="3" fill="#ffd866" style="animation-delay:1.917s;opacity:.45"/>
-<text class="lbl" x="138.1" y="383.0" text-anchor="end" fill="#ffd866">Java</text>
+<circle class="ping" cx="146.1" cy="389.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.917s"/>
+<circle class="bl" cx="146.1" cy="389.0" r="3" fill="#39ff7a" style="animation-delay:1.917s;opacity:.45"/>
+<text class="lbl" x="138.1" y="383.0" text-anchor="end" fill="#9fb3c8">Java</text>
+<circle class="ping" cx="118.0" cy="175.0" r="4" fill="none" stroke="#ffd866" stroke-width="1.4" style="animation-delay:4.667s"/>
+<circle class="bl" cx="118.0" cy="175.0" r="3" fill="#ffd866" style="animation-delay:4.667s;opacity:.45"/>
+<text class="lbl" x="110.0" y="169.0" text-anchor="end" fill="#ffd866">AWS</text>
 <circle cx="210" cy="252" r="2.5" fill="#39ff7a"/>
-<text x="210.0" y="454" text-anchor="middle" font-size="10" fill="#52677d">8 contacts · 7 locked · 1 acquiring (Java)</text>
+<text x="210.0" y="454" text-anchor="middle" font-size="10" fill="#52677d">9 contacts · 8 locked · 1 acquiring (AWS)</text>
 </svg>

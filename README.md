@@ -25,10 +25,10 @@
 └───────────────────────────────────────────────────────────────────────┘
 ```
 
-## `$ ./skillscan --sweep` `&&` `./donut`
+## `$ ./skillscan --sweep`
 
 <div align="center">
-<img src="assets/radar.svg" alt="skill radar" width="420"/>&nbsp;<img src="assets/donut.svg" alt="ascii donut" width="420"/>
+<img src="assets/radar.svg" alt="skill radar" width="420"/>
 </div>
 
 ## `$ render --contrib --mode 3d`
