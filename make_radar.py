@@ -17,7 +17,8 @@ BLIPS = [
     ("Vue 3",       185, 0.72, GREEN, -10),
     ("Linux",       245, 0.60, GREEN, -10),
     ("Quant/Stats", 340, 0.84, GREEN,  16),
-    ("Java",        115, 0.90, YELLOW, -10),
+    ("Java",        115, 0.90, GREEN, -10),
+    ("AWS",        280, 0.20, YELLOW, -10),
 ]
 
 def pos(angle_deg, rfrac):
@@ -71,7 +72,7 @@ for label, ang, rf, col, dy in BLIPS:
     A(f'<text class="lbl" x="{lx:.1f}" y="{y+dy+4:.1f}" text-anchor="{anchor}" fill="{col if col==YELLOW else TEXT}">{label}</text>')
 
 A(f'<circle cx="{CX}" cy="{CY}" r="2.5" fill="{GREEN}"/>')
-A(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="{DIM}">8 contacts · 7 locked · 1 acquiring (Java)</text>')
+A(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="{DIM}">9 contacts · 8 locked · 1 acquiring (AWS)</text>')
 A('</svg>')
 
 open("assets/radar.svg", "w", encoding="utf-8").write("\n".join(s))
