@@ -14,15 +14,15 @@
 <br/>
 
 ```text
-┌──[ MANIFEST ]─────────────────────────────────────────────────────────┐
-│                                                                       │
-│  > Plataforma de gestao p/ vendedores Mercado Livre — Deployed        │
-│    Spring Boot · Vue 3 · PostgreSQL · Docker · deploy em VPS Linux    │
-│    uso diario pela equipe de operacoes (RBAC, analytics, bulk ops)    │
-│  > Pesquisa quantitativa: walk-forward, PBO, Deflated Sharpe          │
-│  > Skill em construcao: AWS                                           │
-│                                                                       │
-└───────────────────────────────────────────────────────────────────────┘
+                                                                                            ┌──[ MANIFEST ]─────────────────────────────────────────────────────────┐
+                                                                                            │                                                                       │
+                                                                                            │  > Plataforma de gestao p/ vendedores Mercado Livre — Deployed        │
+                                                                                            │    Spring Boot · Vue 3 · PostgreSQL · Docker · deploy em VPS Linux    │
+                                                                                            │    uso diario pela equipe de operacoes (RBAC, analytics, bulk ops)    │
+                                                                                            │  > Pesquisa quantitativa: walk-forward, PBO, Deflated Sharpe          │
+                                                                                            │  > Skill em construcao: AWS                                           │
+                                                                                            │                                                                       │
+                                                                                            └───────────────────────────────────────────────────────────────────────┘
 ```
 
 ## `$ ./skillscan --sweep`
