@@ -295,7 +295,7 @@
 <rect class="vb" style="animation-delay:3.06s" x="814.0" y="409.0" width="9.2" height="1.0" fill="#ff5c57" opacity="0.55"/>
 <line x1="16" y1="424" x2="844" y2="424" stroke="#1b232d"/>
 <g class="fd">
-<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">387</tspan></text>
+<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">388</tspan></text>
 <text x="200" y="442" class="t"><tspan class="dim">ATH WEEK</tspan> <tspan class="y">76 @ 2026-07-05</tspan></text>
 <text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">37/52</tspan></text>
 <text x="840" y="442" text-anchor="end" class="t"><tspan class="dim">funding paid in</tspan> <tspan class="g">commits</tspan> <tspan class="bl g">█</tspan></text>
