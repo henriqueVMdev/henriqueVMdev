@@ -16,8 +16,8 @@
 <rect width="860" height="470" rx="10" fill="#0a0e12"/>
 <text x="20" y="24" font-size="15" class="g" font-weight="bold">HENRIQUEVMDEV/CMT</text>
 <text x="20" y="41" font-size="10" class="dim">PERP · 1W · COMMIT EXCHANGE</text>
-<text x="840" y="24" text-anchor="end" font-size="16" fill="#ff5c57" font-weight="bold">39.91</text>
-<text x="840" y="40" text-anchor="end" font-size="11" fill="#ff5c57">-60.09% · 52W</text>
+<text x="840" y="24" text-anchor="end" font-size="16" fill="#ff5c57" font-weight="bold">50.57</text>
+<text x="840" y="40" text-anchor="end" font-size="11" fill="#ff5c57">-49.43% · 52W</text>
 <line x1="16" y1="50" x2="844" y2="50" stroke="#1b232d"/>
 <line x1="56" y1="64.0" x2="826" y2="64.0" stroke="#1b232d" stroke-dasharray="2 4"/>
 <text x="48" y="68.0" text-anchor="end" font-size="10" class="dim">149</text>
@@ -223,23 +223,23 @@
 <rect x="754.8" y="193.8" width="9.2" height="42.4" fill="#ff5c57" rx="1"/>
 </g>
 <g class="k" style="animation-delay:2.88s">
-<line x1="774.2" y1="231.8" x2="774.2" y2="265.7" stroke="#ff5c57" stroke-width="1"/>
-<rect x="769.6" y="236.2" width="9.2" height="20.4" fill="#ff5c57" rx="1"/>
+<line x1="774.2" y1="222.2" x2="774.2" y2="241.8" stroke="#39ff7a" stroke-width="1"/>
+<rect x="769.6" y="224.9" width="9.2" height="11.3" fill="#39ff7a" rx="1"/>
 </g>
 <g class="k" style="animation-delay:2.94s">
-<line x1="789.0" y1="205.7" x2="789.0" y2="262.6" stroke="#39ff7a" stroke-width="1"/>
-<rect x="784.4" y="220.0" width="9.2" height="36.6" fill="#39ff7a" rx="1"/>
+<line x1="789.0" y1="161.6" x2="789.0" y2="232.3" stroke="#39ff7a" stroke-width="1"/>
+<rect x="784.4" y="179.4" width="9.2" height="45.5" fill="#39ff7a" rx="1"/>
 </g>
 <g class="k" style="animation-delay:3.00s">
-<line x1="803.8" y1="194.6" x2="803.8" y2="280.8" stroke="#ff5c57" stroke-width="1"/>
-<rect x="799.2" y="220.0" width="9.2" height="46.9" fill="#ff5c57" rx="1"/>
+<line x1="803.8" y1="149.3" x2="803.8" y2="251.3" stroke="#ff5c57" stroke-width="1"/>
+<rect x="799.2" y="179.4" width="9.2" height="55.3" fill="#ff5c57" rx="1"/>
 </g>
 <g class="k" style="animation-delay:3.06s">
-<line x1="818.6" y1="255.3" x2="818.6" y2="311.6" stroke="#ff5c57" stroke-width="1"/>
-<rect x="814.0" y="266.8" width="9.2" height="33.7" fill="#ff5c57" rx="1"/>
+<line x1="818.6" y1="220.0" x2="818.6" y2="291.3" stroke="#ff5c57" stroke-width="1"/>
+<rect x="814.0" y="234.7" width="9.2" height="42.7" fill="#ff5c57" rx="1"/>
 </g>
-<line x1="56" y1="300.6" x2="826" y2="300.6" stroke="#ff5c57" stroke-width="0.7" stroke-dasharray="5 4" opacity="0.6"/>
-<circle class="bl" cx="822.0" cy="300.6" r="3.4" fill="#ff5c57"/>
+<line x1="56" y1="277.4" x2="826" y2="277.4" stroke="#ff5c57" stroke-width="0.7" stroke-dasharray="5 4" opacity="0.6"/>
+<circle class="bl" cx="822.0" cy="277.4" r="3.4" fill="#ff5c57"/>
 <text x="56" y="346" font-size="10" class="dim">VOL (commits/week)</text>
 <rect class="vb" style="animation-delay:0.00s" x="58.8" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:0.06s" x="73.6" y="409.0" width="9.2" height="1.0" fill="#39ff7a" opacity="0.55"/>
@@ -289,15 +289,15 @@
 <rect class="vb" style="animation-delay:2.70s" x="725.2" y="386.0" width="9.2" height="24.0" fill="#ff5c57" opacity="0.55"/>
 <rect class="vb" style="animation-delay:2.76s" x="740.0" y="374.9" width="9.2" height="35.1" fill="#39ff7a" opacity="0.55"/>
 <rect class="vb" style="animation-delay:2.82s" x="754.8" y="387.7" width="9.2" height="22.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.88s" x="769.6" y="392.7" width="9.2" height="17.3" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:2.94s" x="784.4" y="358.1" width="9.2" height="51.9" fill="#39ff7a" opacity="0.55"/>
-<rect class="vb" style="animation-delay:3.00s" x="799.2" y="398.8" width="9.2" height="11.2" fill="#ff5c57" opacity="0.55"/>
-<rect class="vb" style="animation-delay:3.06s" x="814.0" y="408.3" width="9.2" height="1.7" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.88s" x="769.6" y="384.9" width="9.2" height="25.1" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:2.94s" x="784.4" y="355.9" width="9.2" height="54.1" fill="#39ff7a" opacity="0.55"/>
+<rect class="vb" style="animation-delay:3.00s" x="799.2" y="379.9" width="9.2" height="30.1" fill="#ff5c57" opacity="0.55"/>
+<rect class="vb" style="animation-delay:3.06s" x="814.0" y="399.4" width="9.2" height="10.6" fill="#ff5c57" opacity="0.55"/>
 <line x1="16" y1="424" x2="844" y2="424" stroke="#1b232d"/>
 <g class="fd">
-<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">1325</tspan></text>
+<text x="20" y="442" class="t"><tspan class="dim">VOL 52W</tspan> <tspan class="c">1393</tspan></text>
 <text x="200" y="442" class="t"><tspan class="dim">ATH WEEK</tspan> <tspan class="y">104 @ 2026-06-14</tspan></text>
-<text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">34/52</tspan></text>
+<text x="510" y="442" class="t"><tspan class="dim">GREEN WEEKS</tspan> <tspan class="g">35/52</tspan></text>
 <text x="840" y="442" text-anchor="end" class="t"><tspan class="dim">funding paid in</tspan> <tspan class="g">commits</tspan> <tspan class="bl g">█</tspan></text>
 </g>
 </svg>
