@@ -69,16 +69,6 @@ aprendendo:
 <img src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/profile-night-green.svg" alt="3d contribution calendar" width="860"/>
 </div>
 
-## `$ ./quant --ticker HENRIQUEVMDEV/CMT`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/commit-exchange.svg" alt="commit exchange" width="860"/>
-
-<sub><code>cada candle = 1 semana de commits · verde = mais que a semana anterior · gerado por Action própria</code></sub>
-
-</div>
-
 ## `$ ssh henrique@anywhere`
 
 <div align="center">
