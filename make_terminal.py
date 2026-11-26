@@ -31,12 +31,19 @@ LINES = [
     (22, 10.6, [("", "  9090/tcp  "), ("y", "filtered  "), ("", "Go "), ("dim", "(aprendendo)")]),
     (22, 11.0, [("", "   443/tcp  "), ("y", "filtered  "), ("", "AppSec "), ("dim", "(PortSwigger, OWASP)")]),
 
-    (36, 12.0, ["P", ("CURSOR", "")]),
+    # tem uma flag aqui. ela pisca por um instante antes do "Permission denied"
+    (36, 11.8, ["P", ("", "cat .env.bak")]),
+    (26, 12.5, [("", "  FLAG_B64=SFZNe3YxM3dfczB1cmMzXzFzX3IzYzBufQ==")], "flash"),
+    (0,  12.85, [("r", "  cat: .env.bak: Permission denied")]),
+
+    (36, 13.6, ["P", ("CURSOR", "")]),
 ]
 
 y = 64
 rows = []
-for i, (gap, delay, parts) in enumerate(LINES, 1):
+for i, entry in enumerate(LINES, 1):
+    gap, delay, parts = entry[:3]
+    kind = entry[3] if len(entry) > 3 else "line"
     y += gap
     spans = []
     for part in parts:
@@ -48,12 +55,14 @@ for i, (gap, delay, parts) in enumerate(LINES, 1):
             spans.append(f'<tspan class="{part[0]}">{escape(part[1])}</tspan>')
         else:
             spans.append(escape(part[1]))
-    rows.append((i, delay, y, "".join(spans)))
+    rows.append((i, delay, y, "".join(spans), kind))
 
 H = y + 40
 last_delay = LINES[-1][1]
 
-css_lines = "\n".join(f"    .l{i}{{animation:show .01s {d}s forwards}}" for i, d, _, _ in rows)
+css_lines = "\n".join(
+    f"    .l{i}{{animation:flash .35s {d}s forwards}}" if k == "flash" else f"    .l{i}{{animation:show .01s {d}s forwards}}"
+    for i, d, _, _, k in rows)
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
   <style>
@@ -69,6 +78,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 
     .line{{opacity:0}}
     @keyframes show{{to{{opacity:1}}}}
+    .flash{{opacity:0}}
+    @keyframes flash{{0%{{opacity:0}}5%,90%{{opacity:1}}100%{{opacity:0}}}}
 {css_lines}
 
     @keyframes blink{{0%,49%{{opacity:1}}50%,100%{{opacity:0}}}}
@@ -78,7 +89,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     @keyframes sweep{{from{{transform:translateY(-40px)}}to{{transform:translateY({H + 10}px)}}}}
     .scan{{animation:sweep 7s linear infinite;opacity:.05}}
 
-    @media (prefers-reduced-motion: reduce){{ .line{{opacity:1;animation:none}} .scan{{display:none}} .cursor{{opacity:1;animation:none}} }}
+    @media (prefers-reduced-motion: reduce){{ .line{{opacity:1;animation:none}} .flash{{animation:none;opacity:0}} .scan{{display:none}} .cursor{{opacity:1;animation:none}} }}
   </style>
 
   <rect class="bg" width="{W}" height="{H}" rx="10"/>
@@ -92,7 +103,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   <rect class="scan g" x="0" width="{W}" height="3"/>
 
   <g class="t">
-''' + "\n".join(f'    <text class="line l{i}" x="{X}" y="{yy}" xml:space="preserve">{body}</text>' for i, _, yy, body in rows) + '''
+''' + "\n".join(f'    <text class="{k} l{i}" x="{X}" y="{yy}" xml:space="preserve">{body}</text>' for i, _, yy, body, k in rows) + '''
   </g>
 </svg>
 '''

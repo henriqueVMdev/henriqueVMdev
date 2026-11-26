@@ -1,0 +1,64 @@
+name: ctf
+
+on:
+  issues:
+    types: [opened]
+
+# nada por padrão; o job pede só o que usa
+permissions: {}
+
+concurrency:
+  group: ctf
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: startsWith(github.event.issue.title, '[CTF]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: validar flag
+        id: check
+        # o texto da issue entra só por variável de ambiente e é lido pelo Python, nunca pelo shell
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_USER_TYPE: ${{ github.event.issue.user.type }}
+        run: python3 ctf/check.py
+
+      - name: atualizar hall of fame
+        if: steps.check.outputs.result == 'correct'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -qm "ctf: hall of fame #${RANK}"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 3; done
+        env:
+          RANK: ${{ steps.check.outputs.rank }}
+
+      - name: responder e fechar a issue
+        if: always() && steps.check.outputs.result != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          RESULT: ${{ steps.check.outputs.result }}
+          RANK: ${{ steps.check.outputs.rank }}
+        run: |
+          case "$RESULT" in
+            correct) msg="flag certa. você entrou no hall of fame como #${RANK}"; reason=completed ;;
+            repeat)  msg="flag certa, mas você já está no hall of fame (#${RANK})"; reason=completed ;;
+            wrong)   msg="flag errada. olha de novo, ela está em algum lugar do perfil"; reason="not planned" ;;
+            nope)    msg="não achei nada no formato HVM{...} nessa issue"; reason="not planned" ;;
+            *)       msg="essa issue não foi validada"; reason="not planned" ;;
+          esac
+          gh issue edit "$NUMBER" --body "_(texto ocultado pra não dar spoiler da flag)_"
+          gh issue comment "$NUMBER" --body "$msg"
+          gh issue close "$NUMBER" --reason "$reason"
+          gh issue lock "$NUMBER" --reason resolved || true

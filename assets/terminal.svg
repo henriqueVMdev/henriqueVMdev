@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="576" viewBox="0 0 860 576" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="638" viewBox="0 0 860 638" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
   <style>
     .bg{fill:#0a0e12}
     .chrome{fill:#11161c}
@@ -12,6 +12,8 @@
 
     .line{opacity:0}
     @keyframes show{to{opacity:1}}
+    .flash{opacity:0}
+    @keyframes flash{0%{opacity:0}5%,90%{opacity:1}100%{opacity:0}}
     .l1{animation:show .01s 0.4s forwards}
     .l2{animation:show .01s 1.6s forwards}
     .l3{animation:show .01s 2.1s forwards}
@@ -31,19 +33,22 @@
     .l17{animation:show .01s 10.1s forwards}
     .l18{animation:show .01s 10.6s forwards}
     .l19{animation:show .01s 11.0s forwards}
-    .l20{animation:show .01s 12.0s forwards}
+    .l20{animation:show .01s 11.8s forwards}
+    .l21{animation:flash .35s 12.5s forwards}
+    .l22{animation:show .01s 12.85s forwards}
+    .l23{animation:show .01s 13.6s forwards}
 
     @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
     @keyframes curon{to{opacity:1}}
-    .cursor{opacity:0;animation:curon .01s 12.2s forwards, blink 1s step-end infinite 12.3s}
+    .cursor{opacity:0;animation:curon .01s 13.8s forwards, blink 1s step-end infinite 13.9s}
 
-    @keyframes sweep{from{transform:translateY(-40px)}to{transform:translateY(586px)}}
+    @keyframes sweep{from{transform:translateY(-40px)}to{transform:translateY(648px)}}
     .scan{animation:sweep 7s linear infinite;opacity:.05}
 
-    @media (prefers-reduced-motion: reduce){ .line{opacity:1;animation:none} .scan{display:none} .cursor{opacity:1;animation:none} }
+    @media (prefers-reduced-motion: reduce){ .line{opacity:1;animation:none} .flash{animation:none;opacity:0} .scan{display:none} .cursor{opacity:1;animation:none} }
   </style>
 
-  <rect class="bg" width="860" height="576" rx="10"/>
+  <rect class="bg" width="860" height="638" rx="10"/>
   <rect class="chrome" width="860" height="34" rx="10"/>
   <rect class="chrome" y="20" width="860" height="14"/>
   <circle cx="22" cy="17" r="6" fill="#ff5c57"/>
@@ -73,6 +78,9 @@
     <text class="line l17" x="20" y="456" xml:space="preserve">  2375/tcp  <tspan class="g">open      </tspan>Docker <tspan class="dim">/ </tspan>Linux <tspan class="dim">/ </tspan>GitHub Actions</text>
     <text class="line l18" x="20" y="478" xml:space="preserve">  9090/tcp  <tspan class="y">filtered  </tspan>Go <tspan class="dim">(aprendendo)</tspan></text>
     <text class="line l19" x="20" y="500" xml:space="preserve">   443/tcp  <tspan class="y">filtered  </tspan>AppSec <tspan class="dim">(PortSwigger, OWASP)</tspan></text>
-    <text class="line l20" x="20" y="536" xml:space="preserve"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$ </tspan><tspan class="cursor g">█</tspan></text>
+    <text class="line l20" x="20" y="536" xml:space="preserve"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$ </tspan>cat .env.bak</text>
+    <text class="flash l21" x="20" y="562" xml:space="preserve">  FLAG_B64=SFZNe3YxM3dfczB1cmMzXzFzX3IzYzBufQ==</text>
+    <text class="line l22" x="20" y="562" xml:space="preserve"><tspan class="r">  cat: .env.bak: Permission denied</tspan></text>
+    <text class="line l23" x="20" y="598" xml:space="preserve"><tspan class="g">henrique@vps</tspan><tspan class="dim">:</tspan><tspan class="c">~/ops</tspan><tspan class="dim">$ </tspan><tspan class="cursor g">█</tspan></text>
   </g>
 </svg>

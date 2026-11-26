@@ -63,11 +63,29 @@ aprendendo:
 | [erp-connector-lib](https://github.com/henriqueVMdev/MultiErp) | Lib Java sem framework que lê pedidos de ERPs diferentes e devolve num modelo só. Ainda no começo | Java |
 | [OmniSeg](https://github.com/henriqueVMdev/OmniSeg) | Controle de EPIs feito pro SENAI | Vue 3, Supabase |
 
+## `$ ./seccheck --watch`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output-sec/sec-panel.svg" alt="painel de segurança dos repos públicos" width="860"/>
+
+<sub><code>todo dia uma Action passa Semgrep, Trivy e gosec nos meus repos públicos · só a contagem aparece aqui</code></sub>
+
+</div>
+
 ## `$ render --contrib --mode 3d`
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/henriqueVMdev/henriqueVMdev/output/profile-night-green.svg" alt="3d contribution calendar" width="860"/>
 </div>
+
+## `$ ./ctf --status`
+
+Tem uma flag escondida em algum lugar desse perfil, no formato `HVM{...}`. Se achar, [manda numa issue](https://github.com/henriqueVMdev/henriqueVMdev/issues/new?template=ctf.yml) e uma Action confere. Acertou, seu nome entra no hall of fame:
+
+<!-- HOF:START -->
+<sub><code>ninguém achou ainda. o primeiro nome fica aqui pra sempre</code></sub>
+<!-- HOF:END -->
 
 ## `$ ssh henrique@anywhere`
 

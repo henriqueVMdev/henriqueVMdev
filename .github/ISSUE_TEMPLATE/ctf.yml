@@ -1,0 +1,11 @@
+name: "🚩 CTF: enviar flag"
+description: Achou a flag escondida no perfil? Manda aqui. A issue fecha sozinha e a flag some do texto depois de validada.
+title: "[CTF] flag"
+body:
+  - type: input
+    id: flag
+    attributes:
+      label: Flag
+      placeholder: "HVM{...}"
+    validations:
+      required: true

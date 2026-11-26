@@ -1,0 +1,97 @@
+name: sec panel
+
+on:
+  schedule:
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, sec-ctf]  # PREVIEW: tirar sec-ctf antes de publicar
+    paths:
+      - "sec/**"
+      - ".github/workflows/sec-panel.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-panel
+  cancel-in-progress: false
+
+env:
+  # imagens fixadas por digest: tag sozinha pode ser trocada no registry
+  SEMGREP_IMG: semgrep/semgrep:1.184.0@sha256:cc1b68266f267878b39739373ea9985b9a78e5d64497dd875c8de100b22695ed
+  TRIVY_IMG: aquasec/trivy:0.76.1@sha256:790fd66d1697395d8693d1acaa1ea702406a20f109b6fc7bac8db623eca6c06c
+  GOSEC_IMG: securego/gosec:2.24.6@sha256:2cf71ea78210c496c65e3a987576a9c8317b68e20f2960520b3f6f8f9f539be5
+  SCANNER_VERSIONS: "semgrep 1.184.0 · trivy 0.76.1 · gosec 2.24.6"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: listar repos públicos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          mkdir -p work reports
+          gh api "users/${OWNER}/repos?type=owner&per_page=100" \
+            --jq '.[] | select(.fork | not) | select(.archived | not) | select(.private | not) | .name' > reports/repos.txt
+          cat reports/repos.txt
+
+      - name: clonar
+        env:
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          while read -r r; do
+            [[ "$r" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "nome estranho, pulando"; continue; }
+            git clone --depth 1 --quiet "https://github.com/${OWNER}/${r}.git" "work/${r}" || echo "falhou clonar ${r}"
+          done < reports/repos.txt
+
+      - name: semgrep
+        run: |
+          for d in work/*/; do
+            r=$(basename "$d")
+            docker run --rm -v "$PWD/$d:/src:ro" -v "$PWD/reports:/out" "$SEMGREP_IMG" \
+              semgrep scan --config p/default --json --quiet --metrics=off \
+              --output "/out/${r}.semgrep.json" /src || echo "semgrep saiu com erro em ${r}"
+          done
+
+      - name: trivy
+        run: |
+          mkdir -p .trivy-cache
+          for d in work/*/; do
+            r=$(basename "$d")
+            docker run --rm -v "$PWD/$d:/src:ro" -v "$PWD/reports:/out" -v "$PWD/.trivy-cache:/root/.cache" "$TRIVY_IMG" \
+              fs --scanners vuln,secret --format json --quiet \
+              --output "/out/${r}.trivy.json" /src || echo "trivy saiu com erro em ${r}"
+          done
+
+      - name: gosec (só onde tem Go)
+        run: |
+          for d in work/*/; do
+            r=$(basename "$d")
+            if find "$d" -name go.mod -not -path "*/vendor/*" | grep -q .; then
+              docker run --rm -v "$PWD/$d:/src" -v "$PWD/reports:/out" -w /src "$GOSEC_IMG" \
+                -fmt=json -out="/out/${r}.gosec.json" -no-fail -quiet ./... || echo "gosec saiu com erro em ${r}"
+            fi
+          done
+
+      - name: montar painel
+        run: |
+          git fetch --depth=1 origin output-sec 2>/dev/null && git show origin/output-sec:sec-state.json > prev-state.json || echo '{}' > prev-state.json
+          python3 sec/sec_panel.py --reports reports --state prev-state.json --out dist
+
+      - name: publicar no branch output-sec
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan output-sec-tmp
+          git rm -rfq --cached .
+          git add -f dist/sec-panel.svg dist/sec-state.json
+          git mv -f dist/sec-panel.svg sec-panel.svg
+          git mv -f dist/sec-state.json sec-state.json
+          git commit -qm "sec panel $(date -u +%F)"
+          git push -f origin HEAD:output-sec
