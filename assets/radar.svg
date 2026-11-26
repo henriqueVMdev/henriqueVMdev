@@ -39,33 +39,48 @@
 <path d="M210,252 L378,252 A168,168 0 0,0 338.7,144.0 Z" fill="#39ff7a" opacity="0.13"/>
 <line x1="210" y1="252" x2="378" y2="252" stroke="#39ff7a" stroke-width="1.8"/>
 </g></g>
-<circle class="ping" cx="238.9" cy="210.7" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:5.083s"/>
-<circle class="bl" cx="238.9" cy="210.7" r="3" fill="#39ff7a" style="animation-delay:5.083s;opacity:.45"/>
-<text class="lbl" x="246.9" y="204.7" text-anchor="start" fill="#9fb3c8">Python</text>
-<circle class="ping" cx="289.2" cy="288.9" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:0.417s"/>
-<circle class="bl" cx="289.2" cy="288.9" r="3" fill="#39ff7a" style="animation-delay:0.417s;opacity:.45"/>
-<text class="lbl" x="297.2" y="282.9" text-anchor="start" fill="#9fb3c8">FastAPI</text>
-<circle class="ping" cx="229.8" cy="364.5" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.333s"/>
-<circle class="bl" cx="229.8" cy="364.5" r="3" fill="#39ff7a" style="animation-delay:1.333s;opacity:.45"/>
-<text class="lbl" x="237.8" y="384.5" text-anchor="start" fill="#9fb3c8">PostgreSQL</text>
-<circle class="ping" cx="145.7" cy="306.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:2.333s"/>
-<circle class="bl" cx="145.7" cy="306.0" r="3" fill="#39ff7a" style="animation-delay:2.333s;opacity:.45"/>
-<text class="lbl" x="137.7" y="300.0" text-anchor="end" fill="#9fb3c8">Docker</text>
-<circle class="ping" cx="89.5" cy="241.5" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:3.083s"/>
-<circle class="bl" cx="89.5" cy="241.5" r="3" fill="#39ff7a" style="animation-delay:3.083s;opacity:.45"/>
-<text class="lbl" x="81.5" y="235.5" text-anchor="end" fill="#9fb3c8">Vue 3</text>
-<circle class="ping" cx="167.4" cy="160.6" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:4.083s"/>
-<circle class="bl" cx="167.4" cy="160.6" r="3" fill="#39ff7a" style="animation-delay:4.083s;opacity:.45"/>
-<text class="lbl" x="159.4" y="154.6" text-anchor="end" fill="#9fb3c8">Linux</text>
-<circle class="ping" cx="342.6" cy="203.7" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:5.667s"/>
-<circle class="bl" cx="342.6" cy="203.7" r="3" fill="#39ff7a" style="animation-delay:5.667s;opacity:.45"/>
-<text class="lbl" x="350.6" y="223.7" text-anchor="start" fill="#9fb3c8">Quant/Stats</text>
-<circle class="ping" cx="146.1" cy="389.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.917s"/>
-<circle class="bl" cx="146.1" cy="389.0" r="3" fill="#39ff7a" style="animation-delay:1.917s;opacity:.45"/>
-<text class="lbl" x="138.1" y="383.0" text-anchor="end" fill="#9fb3c8">Java</text>
-<circle class="ping" cx="118.0" cy="175.0" r="4" fill="none" stroke="#ffd866" stroke-width="1.4" style="animation-delay:3.665s"/>
-<circle class="bl" cx="118.0" cy="175.0" r="3" fill="#ffd866" style="animation-delay:3.665s;opacity:.45"/>
-<text class="lbl" x="110.0" y="169.0" text-anchor="end" fill="#ffd866">AWS</text>
+<circle class="ping" cx="147.5" cy="386.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.917s"/>
+<circle class="bl" cx="147.5" cy="386.0" r="3" fill="#39ff7a" style="animation-delay:1.917s;opacity:.45"/>
+<text class="lbl" x="139.5" y="380.0" text-anchor="end" fill="#9fb3c8">Java 21</text>
+<circle class="ping" cx="118.0" cy="300.9" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:2.533s"/>
+<circle class="bl" cx="118.0" cy="300.9" r="3" fill="#39ff7a" style="animation-delay:2.533s;opacity:.45"/>
+<text class="lbl" x="110.0" y="294.9" text-anchor="end" fill="#9fb3c8">Spring Boot</text>
+<circle class="ping" cx="233.1" cy="360.5" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.300s"/>
+<circle class="bl" cx="233.1" cy="360.5" r="3" fill="#39ff7a" style="animation-delay:1.300s;opacity:.45"/>
+<text class="lbl" x="241.1" y="380.5" text-anchor="start" fill="#9fb3c8">PostgreSQL</text>
+<circle class="ping" cx="258.9" cy="293.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:0.667s"/>
+<circle class="bl" cx="258.9" cy="293.0" r="3" fill="#39ff7a" style="animation-delay:0.667s;opacity:.45"/>
+<text class="lbl" x="266.9" y="287.0" text-anchor="start" fill="#9fb3c8">Redis</text>
+<circle class="ping" cx="159.5" cy="233.6" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:3.333s"/>
+<circle class="bl" cx="159.5" cy="233.6" r="3" fill="#39ff7a" style="animation-delay:3.333s;opacity:.45"/>
+<text class="lbl" x="151.5" y="227.6" text-anchor="end" fill="#9fb3c8">Docker</text>
+<circle class="ping" cx="137.6" cy="159.3" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:3.867s"/>
+<circle class="bl" cx="137.6" cy="159.3" r="3" fill="#39ff7a" style="animation-delay:3.867s;opacity:.45"/>
+<text class="lbl" x="129.6" y="153.3" text-anchor="end" fill="#9fb3c8">Linux</text>
+<circle class="ping" cx="238.6" cy="202.5" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:5.000s"/>
+<circle class="bl" cx="238.6" cy="202.5" r="3" fill="#39ff7a" style="animation-delay:5.000s;opacity:.45"/>
+<text class="lbl" x="246.6" y="196.5" text-anchor="start" fill="#9fb3c8">Python</text>
+<circle class="ping" cx="313.3" cy="171.3" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:5.367s"/>
+<circle class="bl" cx="313.3" cy="171.3" r="3" fill="#39ff7a" style="animation-delay:5.367s;opacity:.45"/>
+<text class="lbl" x="321.3" y="165.3" text-anchor="start" fill="#9fb3c8">FastAPI</text>
+<circle class="ping" cx="295.5" cy="270.2" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:0.200s"/>
+<circle class="bl" cx="295.5" cy="270.2" r="3" fill="#39ff7a" style="animation-delay:0.200s;opacity:.45"/>
+<text class="lbl" x="303.5" y="264.2" text-anchor="start" fill="#9fb3c8">LLM APIs</text>
+<circle class="ping" cx="65.6" cy="247.0" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:3.033s"/>
+<circle class="bl" cx="65.6" cy="247.0" r="3" fill="#39ff7a" style="animation-delay:3.033s;opacity:.45"/>
+<text class="lbl" x="57.6" y="241.0" text-anchor="end" fill="#9fb3c8">Vue 3</text>
+<circle class="ping" cx="200.9" cy="165.1" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:4.400s"/>
+<circle class="bl" cx="200.9" cy="165.1" r="3" fill="#39ff7a" style="animation-delay:4.400s;opacity:.45"/>
+<text class="lbl" x="208.9" y="159.1" text-anchor="start" fill="#9fb3c8">Angular</text>
+<circle class="ping" cx="204.7" cy="302.1" r="4" fill="none" stroke="#39ff7a" stroke-width="1.4" style="animation-delay:1.600s"/>
+<circle class="bl" cx="204.7" cy="302.1" r="3" fill="#39ff7a" style="animation-delay:1.600s;opacity:.45"/>
+<text class="lbl" x="212.7" y="322.1" text-anchor="start" fill="#9fb3c8">GH Actions</text>
+<circle class="ping" cx="231.0" cy="102.3" r="4" fill="none" stroke="#ffd866" stroke-width="1.4" style="animation-delay:4.633s"/>
+<circle class="bl" cx="231.0" cy="102.3" r="3" fill="#ffd866" style="animation-delay:4.633s;opacity:.45"/>
+<text class="lbl" x="239.0" y="96.3" text-anchor="start" fill="#ffd866">Go</text>
+<circle class="ping" cx="358.9" cy="225.7" r="4" fill="none" stroke="#ffd866" stroke-width="1.4" style="animation-delay:5.833s"/>
+<circle class="bl" cx="358.9" cy="225.7" r="3" fill="#ffd866" style="animation-delay:5.833s;opacity:.45"/>
+<text class="lbl" x="366.9" y="219.7" text-anchor="start" fill="#ffd866">AppSec</text>
 <circle cx="210" cy="252" r="2.5" fill="#39ff7a"/>
-<text x="210.0" y="454" text-anchor="middle" font-size="10" fill="#52677d">9 contacts · 8 locked · 1 acquiring (AWS)</text>
+<text x="210.0" y="454" text-anchor="middle" font-size="10" fill="#52677d">14 contacts · 12 locked · 2 acquiring (Go, AppSec)</text>
 </svg>

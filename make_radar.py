@@ -10,15 +10,20 @@ PERIOD = 6.0
 GREEN, YELLOW, DIM, GRID, BG, PANEL, TEXT = "#39ff7a", "#ffd866", "#52677d", "#1b232d", "#0a0e12", "#11161c", "#9fb3c8"
 
 BLIPS = [
-    ("Python",      305, 0.30, GREEN, -10),
-    ("FastAPI",      25, 0.52, GREEN, -10),
-    ("PostgreSQL",   80, 0.68, GREEN,  16),
-    ("Docker",      140, 0.50, GREEN, -10),
-    ("Vue 3",       185, 0.72, GREEN, -10),
-    ("Linux",       245, 0.60, GREEN, -10),
-    ("Quant/Stats", 340, 0.84, GREEN,  16),
-    ("Java",        115, 0.90, GREEN, -10),
-    ("AWS",        280, 0.20, YELLOW, -10),
+    ("Java 21",     115, 0.88, GREEN, -10),
+    ("Spring Boot", 152, 0.62, GREEN, -10),
+    ("PostgreSQL",   78, 0.66, GREEN,  16),
+    ("Redis",        40, 0.38, GREEN, -10),
+    ("Docker",      200, 0.32, GREEN, -10),
+    ("Linux",       232, 0.70, GREEN, -10),
+    ("Python",      300, 0.34, GREEN, -10),
+    ("FastAPI",     322, 0.78, GREEN, -10),
+    ("LLM APIs",     12, 0.52, GREEN, -10),
+    ("Vue 3",       182, 0.86, GREEN, -10),
+    ("Angular",     264, 0.52, GREEN, -10),
+    ("GH Actions",   96, 0.30, GREEN,  16),
+    ("Go",          278, 0.90, YELLOW, -10),
+    ("AppSec",      350, 0.90, YELLOW, -10),
 ]
 
 def pos(angle_deg, rfrac):
@@ -72,7 +77,7 @@ for label, ang, rf, col, dy in BLIPS:
     A(f'<text class="lbl" x="{lx:.1f}" y="{y+dy+4:.1f}" text-anchor="{anchor}" fill="{col if col==YELLOW else TEXT}">{label}</text>')
 
 A(f'<circle cx="{CX}" cy="{CY}" r="2.5" fill="{GREEN}"/>')
-A(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="{DIM}">9 contacts · 8 locked · 1 acquiring (AWS)</text>')
+A(f'<text x="{W/2}" y="{H-16}" text-anchor="middle" font-size="10" fill="{DIM}">14 contacts · 12 locked · 2 acquiring (Go, AppSec)</text>')
 A('</svg>')
 
 open("assets/radar.svg", "w", encoding="utf-8").write("\n".join(s))
