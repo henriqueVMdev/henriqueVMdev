@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="400" viewBox="0 0 860 400" font-size="13" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<style>
+.t{fill:#9fb3c8;white-space:pre}
+.d{fill:#52677d}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.bar{transform-box:fill-box;transform-origin:left;animation:fill 1.4s ease-out .4s backwards}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.dot{animation:pulse 1.6s ease-in-out infinite}
+@keyframes draw{from{stroke-dashoffset:1200}to{stroke-dashoffset:0}}
+.spark{stroke-dasharray:1200;animation:draw 2.4s ease-out .6s backwards}
+@keyframes sweep{from{transform:translateY(-10px)}to{transform:translateY(400px)}}
+.scan{animation:sweep 6s linear infinite;opacity:.05}
+@media (prefers-reduced-motion: reduce){.bar,.dot,.spark,.scan{animation:none}}
+</style>
+<rect width="860" height="400" rx="10" fill="#0a0e12"/>
+<rect width="860" height="34" rx="10" fill="#11161c"/><rect y="20" width="860" height="14" fill="#11161c"/>
+<circle cx="22" cy="17" r="6" fill="#ff5c57"/><circle cx="42" cy="17" r="6" fill="#ffd866"/><circle cx="62" cy="17" r="6" fill="#39ff7a"/>
+<text x="430" y="22" text-anchor="middle" font-size="12" fill="#52677d">soc@henrique: ~/watch</text>
+<rect class="scan" x="0" width="860" height="3" fill="#39ff7a"/>
+<text class="t" x="20" y="62"><tspan fill="#39ff7a">soc@henrique</tspan><tspan class="d">:</tspan><tspan fill="#56c8ff">~/watch</tspan><tspan class="d">$ </tspan>./seccheck --repos public --tools semgrep,trivy,gosec</text>
+<rect x="20" y="82" width="250" height="200" rx="6" fill="#11161c" stroke="#1b232d"/>
+<circle class="dot" cx="42" cy="106" r="6" fill="#ff5c57"/>
+<text class="t" x="56" y="111" fill="#ff5c57" font-weight="bold">ALERT</text>
+<text x="145" y="196" text-anchor="middle" font-size="64" font-weight="bold" fill="#ff5c57">0</text>
+<text class="t d" x="145" y="226" text-anchor="middle">dias sem achado crítico</text>
+<text class="t d" x="145" y="262" text-anchor="middle" font-size="11">18 repos públicos varridos</text>
+<rect x="290" y="82" width="550" height="200" rx="6" fill="#11161c" stroke="#1b232d"/>
+<text class="t d" x="310" y="108" xml:space="preserve">SEVERITY      COUNT</text>
+<text class="t" x="310" y="134" fill="#ff5c57">CRITICAL</text>
+<text class="t" x="455" y="134" text-anchor="end">1</text>
+<rect x="475" y="123" width="300" height="12" rx="2" fill="#1b232d"/>
+<rect class="bar" x="475" y="123" width="4" height="12" rx="2" fill="#ff5c57" style="animation-delay:0.40s"/>
+<text class="t" x="310" y="170" fill="#ff6ac1">HIGH</text>
+<text class="t" x="455" y="170" text-anchor="end">65</text>
+<rect x="475" y="159" width="300" height="12" rx="2" fill="#1b232d"/>
+<rect class="bar" x="475" y="159" width="147" height="12" rx="2" fill="#ff6ac1" style="animation-delay:0.55s"/>
+<text class="t" x="310" y="206" fill="#ffd866">MEDIUM</text>
+<text class="t" x="455" y="206" text-anchor="end">132</text>
+<rect x="475" y="195" width="300" height="12" rx="2" fill="#1b232d"/>
+<rect class="bar" x="475" y="195" width="300" height="12" rx="2" fill="#ffd866" style="animation-delay:0.70s"/>
+<text class="t" x="310" y="242" fill="#56c8ff">LOW</text>
+<text class="t" x="455" y="242" text-anchor="end">20</text>
+<rect x="475" y="231" width="300" height="12" rx="2" fill="#1b232d"/>
+<rect class="bar" x="475" y="231" width="45" height="12" rx="2" fill="#56c8ff" style="animation-delay:0.85s"/>
+<text class="t d" x="20" y="310" font-size="11">achados totais, últimos 30 dias</text>
+<rect x="20" y="314" width="520" height="46" rx="4" fill="#11161c" stroke="#1b232d"/>
+<text class="t d" x="280.0" y="342" text-anchor="middle" font-size="11">coletando histórico...</text>
+<text class="t" x="560" y="326" font-size="11"><tspan class="d">por ferramenta</tspan></text>
+<text class="t" x="560" y="344" font-size="11">semgrep 113  trivy 105  gosec 0</text>
+<text class="t d" x="560" y="362" font-size="10">última varredura 2026-11-26 20:47 UTC</text>
+<text class="t d" x="20" y="388" font-size="10">semgrep 1.184.0 · trivy 0.76.1 · gosec 2.24.6  ·  só contagens; detalhe de achado não é publicado</text>
+</svg>

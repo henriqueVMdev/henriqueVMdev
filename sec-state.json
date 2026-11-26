@@ -1,0 +1,14 @@
+{
+ "first_scan": "2026-11-26",
+ "last_critical": "2026-11-26",
+ "history": [
+  {
+   "date": "2026-11-26",
+   "critical": 1,
+   "high": 65,
+   "medium": 132,
+   "low": 20
+  }
+ ],
+ "days_clean": 0
+}
